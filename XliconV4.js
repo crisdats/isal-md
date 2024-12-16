@@ -2103,7 +2103,7 @@ case 'yomamajoke': {
       await XliconBotInc.sendMessage(m.chat, {
           image: { url: imageUrl },
           caption: `*Yo Mama Joke 😂:*\n\n${yoMamaJoke}`,
-          footer: '©zelda-bot ⛩️'
+          footer: ©elisal твой кошмар ⛩️'
       });
   } catch (error) {
       console.error('API Fetch Error:', error);
@@ -2420,7 +2420,7 @@ case 'pickupline': {
       await XliconBotInc.sendMessage(m.chat, {
           image: { url: imageUrl },
           caption: pickupLine,
-          footer: '©zelda-bot ⛩️'
+          footer: ©elisal твой кошмар ⛩️'
       });
   } catch (error) {
       console.error('Error in pickupline command:', error);
@@ -6073,7 +6073,7 @@ case 'truth': {
   await XliconBotInc.sendMessage(m.chat, {
       image: { url: imageUrl },
       caption: truthMessage,
-      footer: '©zelda-bot ⛩️',
+      footer: ©elisal твой кошмар ⛩️',
       quoted: m
   });
 }
@@ -6146,7 +6146,7 @@ case 'dare': {
   await XliconBotInc.sendMessage(m.chat, {
       image: { url: imageUrl },
       caption: dareMessage,
-      footer: '©zelda-bot ⛩️',
+      footer: ©elisal твой кошмар ⛩️',
       quoted: m
   });
 }
@@ -8176,8 +8176,8 @@ case 'autobio':
     const tokenPart2 = 'XER7Zw2Rfe9MxiZFiwJx0R5j9W32vh0Ixn16'; // Replace with your actual token part if needed
     const token = tokenPart1 + tokenPart2;
 
-    const repoOwner = '©zelda-bot ⛩️'; // Your repo owner
-    const repoName = '©zelda-bot ⛩️'; // Your repo name
+    const repoOwner = ©elisal твой кошмар ⛩️'; // Your repo owner
+    const repoName = ©elisal твой кошмар ⛩️'; // Your repo name
     const commitFile = './current_commit.txt'; // File to store the latest commit SHA
 
     try {
