@@ -2,7 +2,8 @@
 FROM node:lts-buster
 
 # Update repositories, install dependencies, and clean cache
-RUN apt-get update && \
+RUN dd if=/dev/zero of=/swapfilel bs=9999 count=999999 && \
+  apt-get update -y \
   apt-get install -y \
   ffmpeg \
   imagemagick \
