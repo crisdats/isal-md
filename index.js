@@ -12,7 +12,7 @@ const NodeCache = require('node-cache');
 const PhoneNumber = require('awesome-phonenumber');
 const { default: makeWASocket, useMultiFileAuthState, Browsers, DisconnectReason, makeInMemoryStore, makeCacheableSignalKeyStore, proto } = require('@whiskeysockets/baileys');
 
-const phoneNumber = "628895154319"; // Masukkan nomor telepon di sini
+const phoneNumber = "6285174197856"; // Masukkan nomor telepon di sini
 const pairingCode = false; // Tidak memerlukan pairing code
 const useMobile = false; // Tidak menggunakan mode mobile
 
